@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+           position: absolute;
+           top: 20%;
+           left: 40%;
+           background-color: brown;
+           height: 320px;
+           width: 220px;
+        }
+        .door{
+            display: flex;
+            /* border: 2px solid rgb(188, 47, 47); */
+            position: relative;
+            background-image: url(img/ungli.gif);
+            background-repeat: no-repeat;
+            background-size: 90% 100%;
+            width: 100%;
+            top: 8px;
+            left: 6px;
+            right: 5px;
+            bottom: 5px;
+        }
+        .left{
+            height: 300px;
+            width: 100px;
+            transition: all 3s;
+            transform-origin: left;
+            background-color: aqua;
+            border: 2px solid black;
+        }
+        .right{
+            height: 300px;
+            width: 100px;
+            transition: all 3s;
+            transform-origin: right;
+            background-color: aquamarine;
+            border: 2px solid black;
+        }
+        .left:hover{
+            transform: perspective(200px) rotateY(90deg);
+        }
+        .right:hover{
+            transform: perspective(200px) rotateY(-90deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="door">
+           <div class="left"></div>
+           <div class="right"></div>
+        </div>
+    </div>
+</body>
+</html>
