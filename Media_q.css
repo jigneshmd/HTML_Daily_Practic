@@ -1,0 +1,51 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    /* transform: rotate(45deg); */
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    /* transition: all 2s ease-in ; */
+    animation-name: animation;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+}
+@media (max-width:  300px){
+div{
+    background-color: green;
+}
+}
+@media (min-width:  300px) and (max-width: 400px){
+div{
+    background-color: pink;
+}
+}
+@media (min-width:  400px) and (max-width: 500px){
+div{
+    background-color: rgb(230, 101, 9);
+}
+}
+@media (min-width:  500px) and (max-width: 600px){
+div{
+    background-color: rgb(240, 248, 4);
+}
+}
+@media (min-width : 600px){
+div{
+    background-color: brown;
+}
+}
+div:hover{
+    /* background-color: chartreuse;
+    color: #f70505; */
+    /* transform: rotate(360deg); */
+    /* transform: translate(400px,300px); */
+}
+@keyframes animation {
+    from {background-color: red;}
+    to {background-color: green;}
+}
