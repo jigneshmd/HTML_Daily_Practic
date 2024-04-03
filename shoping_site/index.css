@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    font-family: arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{  
+    background-image: url("./img/Amazon-PNG1.png");
+    background-color: white;
+    height: 52px;
+    width: 130px;
+    background-size: cover;
+    padding: 1px 0px 0px 5px;
+    margin: 1px;
+}
+.border{    
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1px solid white ;
+}
+/*** section-1 ***/
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.first{
+    color: #cccccc ;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.second{
+    font-size: 1rem;
+    margin-left: 3px;
+} 
+.nav-add{
+    margin: 0px 5px 0px 5px;
+    padding: 10px 10px;
+}  
+/*** section-2 ***/
+.nav-search{
+    display: flex;
+    width: 540px;
+    height: 40px;
+    border-radius: 5px;     
+    justify-content: space-evenly;
+}
+.nav-search:hover{
+    border: 2px solid #f79708;
+}
+.search-select{
+    background-color: #E6E6E6;
+    text-align: center;
+    width: 45px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    background-color:  #f79708;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+}
+span{
+    font-size: 12px;
+}
+.nav-second{
+    font-size: 14px;
+    font-weight: 700;
+}
+.nav-signin{
+    padding: 10px;
+}
+/*** section-3 ***/
+.nav-cart i{
+
+    padding: 12px 0px 12px 0px;
+    font-size: 30px;
+    font-weight: 700;   
+}   
+/*** Panel Section ***/
+.nav-panel{
+    height: 40px;   
+    color: white;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-menu   {
+    padding: 8px 8px;
+}
+.panel-menu p{
+    padding: 8px 20px;
+    
+}
+.panel-menu{
+    width: 70%; 
+    font-size: 1rem;
+     display: flex;
+}
+.shop-deals{
+    font-size: 1rem;
+    padding: 8px 8px; 
+}
+
+/*** Hero Section ***/
+.hero-section{
+    background-image: url("./img/Heroimg.jpg");
+    height: 350px;
+    background-size: cover;
+}
+/*** Shop Content ***/
+.shop-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #cc773f;
+    padding: 10px 0px;
+    
+}
+.box{
+    width: 23%;
+    height: 300px;
+    /* border: 2px solid black; */
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin: 10px 10px;
+}
+.box-img{
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box p{
+    color: #007185;
+    font-size: 13px;
+    border-style: none;
+}
+
+/*** footer ***/
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;   
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;   
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-panel2 a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #d3d3d3;
+}
+.foot-panel2 ul{
+    margin-top: 40px;
+    font-weight: 900;
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    height: 70px;
+    border-top: 0.3px solid rgb(255, 255, 255);
+    justify-content: space-evenly;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lang{
+    height: 40px;
+    color: white;
+    border-radius: 4px;
+    border: 0.5px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    padding: 0px 10px 0px 10px;
+}
+.icon{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.contory{
+    height: 50px;
+    color: #E3E3E3;
+    text-align: center;
+    background-color: #222f3d;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 12px; 
+}
+.contory a{
+    padding: 0px 7px;
+}
+.foot-panel4{
+    height: 70px;
+    color: #E3E3E3;
+    background-color: #131A22;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 20px;
+}
+.anchor a{
+    padding: 0px 7px; 
+}
+.copyright{
+    padding-top: 10px;
+}
